@@ -134,6 +134,11 @@ body {
     fill: var(--secondary-text-color);
 }
 
+.contact-list-icon:hover,
+.contact-list-icon:focus {
+    fill: var(--accent-color)
+}
+
 /* .contact-number::before {
     display: inline-block;
     width: 10px;
