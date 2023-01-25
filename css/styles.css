@@ -240,6 +240,7 @@ body {
     display: block;
     padding: 25px 100px;
     margin-bottom: 30px;
+    background-color: #F5F4FA;
 }
 
 .img-list-item:not(:last-child) {
@@ -312,6 +313,72 @@ body {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.social-list {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.social-list-icon {
+    fill: #AFB1B8;
+}
+
+.social-list-link .social-list-icon:hover,
+.social-list-link .social-list-icon:focus {
+    fill: var(--dark-theme-text-color);
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
+.client-list {
+    display: flex;
+}
+
+.client-list-item {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-list-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client-list-icon {
+    padding: 16px 32px;
+}
+
+.clients {
+    margin-top: 50px;
+}
+
+.client-list-item .client-list-icon:hover{
+    fill: var(--accent-color)
+}
+
+.client-list-item:hover{
+    border-color: var(--accent-color);
 }
 
 /* Studio main end */
@@ -390,6 +457,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
 }
+
 
 
 /* Portfolio main end */
