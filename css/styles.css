@@ -119,16 +119,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-/* .contact-mail::before {
-    display: inline-block;
-    width: 16px;
-    height: 12px;
-    content: "";
-    background-image: url("../images/svg/envelope.svg");
-    fill: var(--secondary-text-color);
-    margin-right: 10px;
-} */
-
 .contact-list-icon {
     margin-right: 10px;
     fill: var(--secondary-text-color);
@@ -366,6 +356,7 @@ body {
 }
 
 .client-list-icon {
+    fill: #AFB1B8;
     padding: 16px 32px;
 }
 
@@ -481,6 +472,7 @@ body {
 
 .contact-box{
     margin-top: 20px;
+    margin-right: 70px;
 }
 .address {
     font-style: normal;
@@ -507,6 +499,37 @@ body {
 .footer-number:hover,
 .footer-number:focus {
     color: var(--accent-color);
+}
+
+.social-list-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background-color: none;
+    border-radius: 50%;
+}
+
+.social-list-footer {
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.social-list-icon-footer {
+    fill: var(--dark-theme-text-color);
+}
+
+.social-list-link-footer:hover,
+.social-list-link-footer:focus {
+    background-color: var(--accent-color);
+}
+
+.desc-title-footer {
+    color: #FFFFFF;
+    margin-top: 72px;
+    margin-bottom: 20px;
 }
 
 /* Footer end */
