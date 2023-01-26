@@ -461,6 +461,7 @@ body {
     padding-bottom: 60px;
 }
 
+
 .footer .logo-span {
     font-family: 'Raleway';
     font-weight: 700;
@@ -500,6 +501,17 @@ body {
 .footer-number:focus {
     color: var(--accent-color);
 }
+
+/* .join {
+display: flex;
+width: 206px;
+height: 80px;
+justify-content: center;
+margin-top: 72px;
+margin-right: 878px;
+margin-bottom: 100px;
+margin-left: 516px;
+} */
 
 .social-list-link-footer {
     display: flex;
