@@ -228,7 +228,6 @@ body {
 
 .req-list-icon {
     display: block;
-    padding: 25px 100px;
     margin-bottom: 30px;
     background-color: #F5F4FA;
 }
@@ -357,7 +356,6 @@ body {
 
 .client-list-icon {
     fill: #AFB1B8;
-    padding: 16px 32px;
 }
 
 .clients {
@@ -502,16 +500,21 @@ body {
     color: var(--accent-color);
 }
 
-/* .join {
-display: flex;
+.footer-container {
+    display: flex;
+}
+
+.footer-contact {
+    margin-right: 70px;
+}
+
+.join {
+display: block;
 width: 206px;
 height: 80px;
-justify-content: center;
-margin-top: 72px;
 margin-right: 878px;
 margin-bottom: 100px;
-margin-left: 516px;
-} */
+}
 
 .social-list-link-footer {
     display: flex;
