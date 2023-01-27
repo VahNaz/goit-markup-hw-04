@@ -480,13 +480,20 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--dark-theme-text-color);
-    margin-bottom: 20px;
     
 }
-/* 
+
 .contact-box{
+    margin-top: 20px;
+    width: 231px;
+}
+
+.footer-contact {
+    display: block;
+    justify-content: center;
     margin-right: 70px;
-} */
+}
+
 .address {
     font-style: normal;
     font-weight: 400;
@@ -518,16 +525,10 @@ body {
     display: flex;
 }
 
-.footer-contact {
-    display: flex;
-    justify-content: center;
-    margin-right: 70px;
-}
-
 .join {
 display: block;
-margin-right: 878px;
-margin-bottom: 100px;
+justify-content: center;
+margin-top: 12px;
 }
 
 .social-list-link-footer {
@@ -546,8 +547,7 @@ margin-bottom: 100px;
 
 .social-list-footer {
     display: flex;
-    padding-left: 32px;
-    padding-right: 32px;
+
 }
 
 .social-list-icon-footer {
@@ -561,7 +561,6 @@ margin-bottom: 100px;
 
 .desc-title-footer {
     color: #FFFFFF;
-    margin-top: 72px;
     margin-bottom: 20px;
 }
 
