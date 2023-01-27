@@ -324,7 +324,7 @@ body {
     border-radius: 50%;
 }
 
-.social-list-link:not(:last-child) {
+.social-list-item:not(:last-child) {
     margin-right: 10px;
 }
 
@@ -479,13 +479,14 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--dark-theme-text-color)
+    color: var(--dark-theme-text-color);
+    margin-bottom: 20px;
+    
 }
-
+/* 
 .contact-box{
-    margin-top: 20px;
     margin-right: 70px;
-}
+} */
 .address {
     font-style: normal;
     font-weight: 400;
@@ -518,13 +519,13 @@ body {
 }
 
 .footer-contact {
+    display: flex;
+    justify-content: center;
     margin-right: 70px;
 }
 
 .join {
 display: block;
-width: 206px;
-height: 80px;
 margin-right: 878px;
 margin-bottom: 100px;
 }
@@ -539,7 +540,7 @@ margin-bottom: 100px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-list-link-footer:not(:last-child) {
+.social-list-item-footer:not(:last-child) {
     margin-right: 10px;
 }
 
