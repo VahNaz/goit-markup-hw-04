@@ -332,9 +332,13 @@ body {
 }
 
 
+.social-list-item .social-list-link:hover,
+.social-list-item .social-list-link:focus {
+    background-color: var(--accent-color);
+}
+
 .social-list-item .social-list-icon:hover,
 .social-list-item .social-list-icon:focus {
-    background-color: var(--accent-color);
     fill: var(--dark-theme-text-color);
 }
 
