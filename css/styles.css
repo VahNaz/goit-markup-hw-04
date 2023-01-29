@@ -124,12 +124,6 @@ body {
     fill: currentColor;
 }
 
-/* .contact-list-icon:hover,
-.contact-list-icon:focus {
-    fill: var(--accent-color)
-} */
-
-
 
 /* Header end */
 
@@ -151,7 +145,6 @@ body {
 .title {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg.main.jpg");
     background-repeat: no-repeat;
-    /* background-position: cover; */
     max-width: 1600px;
     margin: 0px auto;
     padding-top: 200px;
@@ -365,13 +358,10 @@ body {
     fill: #AFB1B8;
 }
 
-.clients {
-    /* margin-top: 50px; */
-}
-
 
 .client-list-item .client-list-link:hover{
     border-color: var(--accent-color);
+    fill: var(--accent-color);
 }
 
 /* Studio main end */
@@ -529,7 +519,6 @@ body {
 .join {
 display: block;
 justify-content: center;
-/* margin-top: 12px; */
 }
 
 .social-list-link-footer {
