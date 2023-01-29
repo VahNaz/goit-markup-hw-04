@@ -121,23 +121,14 @@ body {
 
 .contact-list-icon {
     margin-right: 10px;
-    fill: var(--secondary-text-color);
+    fill: currentColor;
 }
 
-.contact-list-icon:hover,
+/* .contact-list-icon:hover,
 .contact-list-icon:focus {
     fill: var(--accent-color)
-}
-
-/* .contact-number::before {
-    display: inline-block;
-    width: 10px;
-    height: 16px;
-    content: "";
-    background-image: url("../images/svg/smartphone.svg");
-    fill: var(--secondary-text-color);
-    margin-right: 10px;
 } */
+
 
 
 /* Header end */
@@ -160,7 +151,9 @@ body {
 .title {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/bg.main.jpg");
     background-repeat: no-repeat;
-    background-position: cover;
+    /* background-position: cover; */
+    max-width: 1600px;
+    margin: 0px;
     padding-top: 200px;
     padding-bottom: 200px;
     justify-content: center;
@@ -281,12 +274,13 @@ body {
 }
 
 .hero-desc{
-    padding: 30px 15px;
+    padding: 30px;
 
 }
 
 .hero-list-item {
     background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .hero-list-item:not(:last-child) {
@@ -330,8 +324,7 @@ body {
 
 .social-list {
     display: flex;
-    padding-left: 32px;
-    padding-right: 32px;
+    align-items: center;
 }
 
 .social-list-icon {
@@ -340,12 +333,13 @@ body {
 
 .social-list-link .social-list-icon:hover,
 .social-list-link .social-list-icon:focus {
-    fill: var(--dark-theme-text-color);
+    /* fill: var(--dark-theme-text-color); */
 }
 
 .social-list-link:hover,
 .social-list-link:focus {
     background-color: var(--accent-color);
+    fill: var(--dark-theme-text-color);
 }
 
 .client-list {
@@ -363,6 +357,10 @@ body {
     border-radius: 4px;
 }
 
+.client-list-link {
+    display: flex;
+}
+
 .client-list-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -372,10 +370,10 @@ body {
 }
 
 .clients {
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
-.client-list-item .client-list-icon:hover{
+.client-list-link .client-list-icon:hover{
     fill: var(--accent-color)
 }
 
@@ -418,6 +416,10 @@ body {
 
 }
 
+.portfolio-list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .portfolio-list-item:nth-child(3n){
     margin-right: 0;
 }
@@ -450,6 +452,11 @@ body {
 
 .filter-list-item:not(:last-child) {
     margin-right: 8px;
+}
+
+.filter-list-item:hover,
+.filter-list-item:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .desc-title-text {
@@ -523,12 +530,13 @@ body {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .join {
 display: block;
 justify-content: center;
-margin-top: 12px;
+/* margin-top: 12px; */
 }
 
 .social-list-link-footer {
