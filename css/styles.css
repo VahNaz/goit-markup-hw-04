@@ -335,10 +335,6 @@ body {
 .social-list-item .social-list-link:hover,
 .social-list-item .social-list-link:focus {
     background-color: var(--accent-color);
-}
-
-.social-list-item .social-list-icon:hover,
-.social-list-item .social-list-icon:focus {
     fill: var(--dark-theme-text-color);
 }
 
@@ -373,11 +369,8 @@ body {
     /* margin-top: 50px; */
 }
 
-.client-list-link .client-list-icon:hover{
-    fill: var(--accent-color)
-}
 
-.client-list-item:hover{
+.client-list-item .client-list-link:hover{
     border-color: var(--accent-color);
 }
 
