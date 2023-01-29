@@ -332,8 +332,8 @@ body {
 }
 
 
-.social-list-link .social-list-icon:hover,
-.social-list-link .social-list-icon:focus {
+.social-list-item .social-list-icon:hover,
+.social-list-item .social-list-icon:focus {
     background-color: var(--accent-color);
     fill: var(--dark-theme-text-color);
 }
