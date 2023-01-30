@@ -113,6 +113,7 @@ body {
     color: var(--accent-color);
 }
 
+
 .contact-mail, .contact-number {
     color: var(--secondary-text-color);
     line-height: 1.14;
@@ -325,8 +326,8 @@ body {
 }
 
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-item:hover .social-list-icon,
+.social-list-link:focus .social-lict-icon {
     background-color: var(--accent-color);
     fill: var(--dark-theme-text-color);
 }
@@ -359,7 +360,7 @@ body {
 }
 
 
-.client-list-link:hover{
+.client-list-item:hover .client-list-icon {
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
