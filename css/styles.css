@@ -360,8 +360,8 @@ body {
 }
 
 
-.client-list-item:hover .client-list-link {
-    border: var(--accent-color);
+.client-list-link:hover .client-list-icon {
+    border-color: var(--accent-color);
     fill: var(--accent-color);
 }
 
