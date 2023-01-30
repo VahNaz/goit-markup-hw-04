@@ -325,8 +325,8 @@ body {
 }
 
 
-.social-list-item .social-list-link:hover,
-.social-list-item .social-list-link:focus {
+.social-list-link:hover,
+.social-list-link:focus {
     background-color: var(--accent-color);
     fill: var(--dark-theme-text-color);
 }
@@ -359,7 +359,7 @@ body {
 }
 
 
-.client-list-item .client-list-link:hover{
+.client-list-link:hover{
     border-color: var(--accent-color);
     fill: var(--accent-color);
 }
