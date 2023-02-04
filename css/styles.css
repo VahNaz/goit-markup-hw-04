@@ -115,7 +115,7 @@ body {
 
 
 .contact-mail, .contact-number {
-    display: block;
+    display: flex;
     align-items: center;
     color: var(--secondary-text-color);
     line-height: 1.14;
@@ -439,8 +439,8 @@ body {
     margin-bottom: 4px;
 }
 
-.portfolio-list-link:hover,
-.portfolio-list-link:focus {
+.portfolio-list-item:hover .portfolio-list-link,
+.portfolio-list-item:focus .portfolio-list-link {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
